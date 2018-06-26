@@ -1,0 +1,110 @@
+body{
+  margin: 0;
+}
+@font-face {
+    font-family:"Playfair Display";
+
+    src:url("PlayfairDisplay-BlackItalic.woff2") format("woff2"),
+    	url("PlayfairDisplay-BlackItalic.woff") format("woff"),
+    	url("PlayfairDisplay-BlackItalic.otf") format("opentype");
+    
+    font-style: italic;
+    font-weight: 700;
+}
+@font-face {
+    font-family:"Playfair Display";
+
+    src:url("PlayfairDisplay-Regular.woff2") format("woff2"),
+    	url("PlayfairDisplay-Regular.woff") format("woff"),
+    	url("PlayfairDisplay-Regular.otf") format("opentype");
+
+    font-style: normal;
+    font-weight: 400;
+}
+@font-face {
+    font-family:"Roboto";
+
+    src:url("Roboto-Light.woff2") format("woff2"),
+    	url("Roboto-Light.woff") format("woff"),
+    	url("Roboto-Light.otf") format("opentype");
+
+    font-style: normal;
+    font-weight: 300;
+}
+
+.navbar-brand{
+  width: 100px;
+  height: 20px;
+	float:right;
+	font-weight: 100;
+
+}
+.logo-barberia{
+	margin-left: 20%;
+	width: 100%;
+	height: 100%;
+	margin-top: 30%;
+	position: center;
+}
+img-responsive{
+	background-image: url("..assets/img/logo.png");
+	position: relative;
+}
+
+/* Header */
+
+.header_barberia {
+  background-image: url("..assets/img/post-image.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  text-align: center;
+  height: 100px;
+  padding-top: 0px;
+  background-position: left bottom;
+}
+
+.header_barberia h1 {
+  color: ;
+  font-size: 5em;
+  margin-top: 
+}
+
+.header_barberia p {
+  
+  line-height: 22px;
+  padding: 1rem 10vw;
+}
+@media only screen and (max-width : 767px) {
+
+  .header_barberia {
+    height: 500px;
+    padding-top: 100px;
+    background-position: center;
+  }
+
+  .header_barberia h1{
+    font-size: 3em;
+    margin-left:30%;
+  }
+
+  .header_barberia p {
+    padding: 1rem 4rem;
+  }
+
+h1{
+	position: relative;
+	margin-top:-390px;
+	color:white;
+	text-align: center;
+	font-style: italic;
+	font-family: "Playfair Display"
+	font-size:80px;
+	font-weight: 700;
+}
+.icon-flechas{
+	position: relative;
+	margin-top:20px;
+	color: white;
+
+
+}
